@@ -1,29 +1,29 @@
 <?php
 
-echo "Hello World get!";
+echo "Hello World 7!";
 
-$connectstr_dbhost = '';
-$connectstr_dbname = '';
-$connectstr_dbusername = '';
-$connectstr_dbpassword = '';
-
-foreach ($_SERVER as $key => $value) {
-    if (strpos($key, "MYSQLCONNSTR_localdb") !== 0) {
-        continue;
-    }
-
-    $connectstr_dbhost = preg_replace("/^.*Data Source=(.+?);.*$/", "\\1", $value);
-    $connectstr_dbname = preg_replace("/^.*Database=(.+?);.*$/", "\\1", $value);
-    $connectstr_dbusername = preg_replace("/^.*User Id=(.+?);.*$/", "\\1", $value);
-    $connectstr_dbpassword = preg_replace("/^.*Password=(.+?)$/", "\\1", $value);
-}
-
-print $connectstr_dbhost.'<br>';
-print $connectstr_dbname.'<br>';
-print $connectstr_dbusername.'<br>';
-print $connectstr_dbpassword.'<br>';
-
-exit();
+//$connectstr_dbhost = '';
+//$connectstr_dbname = '';
+//$connectstr_dbusername = '';
+//$connectstr_dbpassword = '';
+//
+//foreach ($_SERVER as $key => $value) {
+//    if (strpos($key, "MYSQLCONNSTR_localdb") !== 0) {
+//        continue;
+//    }
+//
+//    $connectstr_dbhost = preg_replace("/^.*Data Source=(.+?);.*$/", "\\1", $value);
+//    $connectstr_dbname = preg_replace("/^.*Database=(.+?);.*$/", "\\1", $value);
+//    $connectstr_dbusername = preg_replace("/^.*User Id=(.+?);.*$/", "\\1", $value);
+//    $connectstr_dbpassword = preg_replace("/^.*Password=(.+?)$/", "\\1", $value);
+//}
+//
+//print $connectstr_dbhost.'<br>';
+//print $connectstr_dbname.'<br>';
+//print $connectstr_dbusername.'<br>';
+//print $connectstr_dbpassword.'<br>';
+//
+//exit();
 
 //connection
 $user = "azure";
@@ -35,7 +35,7 @@ session_start();
 $db_name_normal = "localdb";
 
 
-$mysqli = new mysqli('127.0.0.1',$user, $password, $db_name_normal);
+$mysqli = new mysqli('127.0.0.1:51636',$user, $password, $db_name_normal);
 
 $user_email = 'vanadragos@gmail.com';
 

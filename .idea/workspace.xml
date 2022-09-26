@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1f368cb4-473c-40a2-a3a5-36859bd7c1e5" name="Changes" comment="step 5">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="1f368cb4-473c-40a2-a3a5-36859bd7c1e5" name="Changes" comment="step 6">
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +37,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664121980018</updated>
-      <workItem from="1664121982934" duration="5124000" />
+      <workItem from="1664121982934" duration="5356000" />
     </task>
     <task id="LOCAL-00001" summary="step 3">
       <created>1664123317579</created>
@@ -68,7 +67,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664208014097</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="step 6">
+      <created>1664208295066</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1664208295066</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,6 +105,7 @@
     <MESSAGE value="step 3" />
     <MESSAGE value="step 4" />
     <MESSAGE value="step 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="step 5" />
+    <MESSAGE value="step 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="step 6" />
   </component>
 </project>

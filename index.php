@@ -1,6 +1,6 @@
 <?php
 
-echo "Hello World DB!";
+echo "Hello World localdb!";
 
 
 
@@ -12,7 +12,7 @@ $password = "6#vWHD_$";
 //demo
 session_start();
 
-$db_name_normal = "test";
+$db_name_normal = "localdb";
 
 
 $mysqli = new mysqli('localhost',$user, $password, $db_name_normal);

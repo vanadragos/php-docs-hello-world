@@ -1,6 +1,6 @@
 <?php
 
-echo "Hello World localdb!";
+echo "Hello World 127!";
 
 
 
@@ -15,7 +15,7 @@ session_start();
 $db_name_normal = "localdb";
 
 
-$mysqli = new mysqli('localhost',$user, $password, $db_name_normal);
+$mysqli = new mysqli('127.0.0.1',$user, $password, $db_name_normal);
 
 $user_email = 'vanadragos@gmail.com';
 
